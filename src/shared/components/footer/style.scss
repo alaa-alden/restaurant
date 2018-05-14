@@ -1,32 +1,33 @@
-.footer{
-    margin-top:25px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    ul {
+.footer {
+  // margin-top:25px;
+  // position: absolute;
+  // right: 0;
+  // bottom: 0;
+  // left: 0;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: 25px;
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #A02534;
-
-
-    }
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
-        background-color: rgb(148, 24, 39);
-    }
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(148, 24, 39);
+  }
 }

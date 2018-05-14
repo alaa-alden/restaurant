@@ -1,6 +1,6 @@
-import { untitle, untitles } from './components'
+import { meal, meals } from './components'
 
 export {
-  untitle,
-  untitles
+  meal,
+  meals
 }

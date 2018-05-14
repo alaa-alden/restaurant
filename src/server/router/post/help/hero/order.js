@@ -1,5 +1,5 @@
-import logger from '../../../logger'
-import { order } from '../../../data/model'
+import logger from '../../../../logger'
+import { order } from '../../../../data/model'
 
 const saveOrder = (name, image) => {
   logger.info(image)

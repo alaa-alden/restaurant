@@ -21,7 +21,7 @@ try {
   initRoutes(app)
   logger.info('Application initialised!')
   logger.info(`Listening on port ${config.internalPort}`)
-  app.listen(process.env.PORT||config.internalPort)
+  app.listen(process.env.PORT || config.internalPort)
 } catch (e) {
   logger.error(e)
 }

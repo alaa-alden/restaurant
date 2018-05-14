@@ -3,14 +3,14 @@ import {
   GraphQLObjectType,
 } from 'graphql'
 
-import { untitles, untitle } from './fields'
+import { meals, meal } from './fields'
 
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
   description: 'the root query',
   fields: {
-    untitles,
-    untitle
+    meals,
+    meal
   }
 })
 const schema = new GraphQLSchema({

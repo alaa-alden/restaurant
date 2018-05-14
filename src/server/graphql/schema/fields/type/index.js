@@ -1,7 +1,7 @@
-import untitleType from './untitle'
+import mealType from './meal'
 
 const empty = {}
 export {
-  untitleType,
+  mealType,
   empty
 }

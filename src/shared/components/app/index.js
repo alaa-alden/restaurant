@@ -2,8 +2,12 @@ import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import { Navigation, Router, Footer } from '../'
 import styles from './style.scss'
+// import design from './canvas'
 
 class App extends Component {
+  // componentDidMount() {
+  //   design()
+  // }
   render() {
     return (
       <div className={styles.app}>
@@ -15,6 +19,7 @@ class App extends Component {
           />
         </Helmet>
         <Navigation />
+        {/* <canvas /> */}
         <div className="container-fluid">
           <Router />
         </div>

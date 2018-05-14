@@ -18,7 +18,7 @@ class Add extends Component {
     image: {},
     description: ''
   }
-/* #region for change input */
+  /* #region for change input */
   handleChangeName(e) {
     this.setState({ name: e.target.value })
   }
@@ -31,7 +31,7 @@ class Add extends Component {
   handleChangeDescription(e) {
     this.setState({ description: e.target.value })
   }
-/* #endregion */
+  /* #endregion */
 
   // work when SUBMIT
   handleSubmit(e) {
@@ -44,7 +44,10 @@ class Add extends Component {
     // console.log(this.props.location.pathname)
     axios.post('/add', data).then((res) => {
       // you know when coding in server
-      if (1) { this.props.history.push('/') }
+      if (1) {
+        this.props.history.push('/')
+        console.log(res.data)
+      }
     })
   }
   // RENDRE
@@ -83,7 +86,8 @@ class Add extends Component {
 Add.proptypes = {
   state: PropTypes.object,
   handleChange: PropTypes.func,
-  handleSubmit: PropTypes.func
+  handleSubmit: PropTypes.func,
+  history: PropTypes.func
 }
 export default Add
 /*

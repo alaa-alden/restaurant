@@ -1,5 +1,5 @@
-import { untitle, untitles } from './untitle'
+import { meal, meals } from './meal'
 
 export {
-  untitle, untitles
+  meal, meals
 }

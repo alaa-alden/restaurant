@@ -1,4 +1,4 @@
-import { getUntitlesQuery } from './untitle'
+import { getMealsQuery } from './meal'
 
 const test = {}
-export { getUntitlesQuery, test }
+export { getMealsQuery, test }

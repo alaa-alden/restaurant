@@ -16,3 +16,5 @@ class Nav extends Component {
   }
 }
 export default Nav
+
+// fix show nav bar

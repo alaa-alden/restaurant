@@ -10,7 +10,7 @@ import { App } from '../shared/components'
 
 // const state = window.clientAppConfig.state
 const client = new ApolloClient({
-  uri: `http://${window.location.host}/graphql`
+  uri: `${window.location.origin}/graphql`
 })
 
 const store = configureStore

@@ -2,4 +2,5 @@
 // import hero from './hero'
 import add from './add'
 
-export { add }
+const empty = {}
+export { add, empty }

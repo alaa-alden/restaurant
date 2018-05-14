@@ -1,7 +1,7 @@
 /* eslint "react/prop-types":0 */
 import React, { Component } from 'react'
 import { graphql } from 'react-apollo'
-import { getPersonsQuery } from '../../queries'
+import { getPersonsQuery } from '../../../queries'
 
 class fetching extends Component {
   constructor(props) {
